@@ -15,11 +15,11 @@ class Sequencer extends Component {
         return (
             <div>
                 <div className="sequence-name">
-                    <button >Factorial Sequence</button>
-                    <button>Fibonacci Sequence</button>
                     <button onClick = {() => {this.props.onClick(partialSumSeq)}}>Partial Sum Sequence</button>
                     <button onClick = {() => {this.props.onClick(primeSeq)}} >Prime Sequence</button>
-                    <button >Range Sequence</button>
+                    <button onClick = {() => {this.props.onClick(rangeSeq)}}>Range Sequence</button>
+                    <button >Factorial Sequence</button>
+                    <button >Fibonacci Sequence</button>
                 </div>
             </div>
         );

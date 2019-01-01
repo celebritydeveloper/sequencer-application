@@ -5,6 +5,13 @@ class Result extends Component {
         super(props);
     }
     render() {
+        let sequences = this.props.sequences;
+        let sequenceList = sequences.map(function (result) {
+            return <div className="dot">
+                <div className="result-dot">{ result.value }</div>
+             </div>
+        });
+
         return(
             <div>
                 <div className="wrapper">
@@ -22,26 +29,9 @@ class Result extends Component {
 
                 {/* Results Container  */} 
                     <div className="result-box">
-                            <div className="dot">
-                                <div className="result-dot">1</div>
-                            </div>
-                            
-                            <div className="dot">
-                                <div className="result-dot">2</div>
-                            </div>
-                            
-                            <div className="dot">
-                                <div className="result-dot">3</div>
-                            </div>
-                            
-                            <div className="dot">
-                                <div className="result-dot">4</div>
-                            </div>
-                            
-                            <div className="dot">
-                                <div className="result-dot">5</div>
-                            </div>
-                            
+
+                    { sequenceList }
+                                                        
                     {/* End of Results Container  */}   
                     </div>
 

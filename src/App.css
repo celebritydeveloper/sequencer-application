@@ -262,3 +262,38 @@ body {
 
 }
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+  
+  .sequence {
+    height: 200px;
+    padding: 0 1px;
+    margin-top: 2px;
+  }
+  
+  .sequence-name button {
+    display: inline;
+    font-size: 0.7em;
+    max-height: 35px;
+    margin-bottom: 1px;
+    margin-right: 2px;
+    max-width: 70px;
+    padding: 2px;
+   }
+
+   .result {
+     height: 350px;
+     margin-top: 0;
+    padding: 20px 10px 40px 10px;
+   }
+
+   .result-box {
+     height: 250px;
+   }
+
+   .sequence-desc {
+     visibility: hidden;
+   }
+  
+  }
+

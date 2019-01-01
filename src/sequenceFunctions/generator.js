@@ -1,6 +1,7 @@
 const generator = function * (sequencer) {
     let results;
     let args = [...arguments];
+    console.log(args);
     args.shift();
     if (args.length > 0) {
         results = sequencer.apply(null, args);
