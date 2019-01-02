@@ -1,16 +1,13 @@
 # sequencer-app
-Application is meant to run a sequences e.g (Fibonacci Sequence, Factorial Sequence) from generator.
-
-The Following sequences are working:
-- Partial Sum Sequence
-- Prime Sequence
-- Range Sequence
+Application is meant to run a sequences e.g (Fibonacci Sequence, Factorial Sequence) from generator. Sequences currently are log to the console.
 
 
 ### Built With
 
-- Reactjs
-- Bootstrap
+- [Reactjs](https://reactjs.org).
+- [Bootstrap](https://getbootstrap.com)
+- Pure CSS
+- JavaScript
 
 ### Demo
 Use this link to see demo https://iamessien.github.io/sequencer-app/
@@ -24,13 +21,13 @@ https://toggl.com/app/projects/3140214/edit/148472225
 
 - Nodejs
 - npm or yarn package manager
-- 
 
 ### Installing
-Pull repository to your local machine using https://github.com/iamessien/sequencer-application.git or download zip using the clone or download above.
+Pull repository to your local machine using https://github.com/iamessien/sequencer-app.git or download zip using the clone or download above.
 
 - Using command line `cd into the directory`
 - Run the following command  `npm start` or `yarn start`
+- Note: You must install boostrap using the exact version you see in the example command `npm install bootstrap@3.3.1`
 
 
 ### License
