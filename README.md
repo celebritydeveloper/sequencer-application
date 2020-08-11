@@ -10,7 +10,7 @@ Application is meant to run a sequences e.g (Fibonacci Sequence, Factorial Seque
 - JavaScript
 
 ### Demo
-Use this link to see demo https://theboringdude.github.io/sequencer-app/
+Use this link to see demo https://celebritydeveloper.github.io/sequencer-app/
 
 
 ### Tools
@@ -23,7 +23,7 @@ https://toggl.com/app/projects/3140214/edit/148472225
 - npm or yarn package manager
 
 ### Installing
-Pull repository to your local machine using https://github.com/theboringdude/sequencer-app.git or download zip using the clone or download above.
+Pull repository to your local machine using https://github.com/celebritydeveloper/sequencer-app.git or download zip using the clone or download above.
 
 - Using command line `cd into the directory`
 - Run the following command  `npm start` or `yarn start`
